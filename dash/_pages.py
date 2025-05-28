@@ -92,7 +92,6 @@ def _module_name_is_package(module_name):
     )
 
 
-
 def _path_to_module_name(path):
     return str(path).replace(".py", "").strip(os.sep).replace(os.sep, ".")
 
